@@ -45,6 +45,14 @@ A big part of coding is comparing values in order to make a decision in code. Wh
 20.4 < 20.2 // less than
 10 >= 10 // greater than or equal to
 10 <= 5 // less than or equal to
+
+// OR can be represented with ||
+true || false; // this should be true
+(5 === 5) || (5 === 3); // what should this be?
+
+// AND can be represented with &&
+true && false; // this should be false
+(5 === 5) || (5 === 3); // what should this be?
 ```
 
 ### Conditional: If and but… no, or else… oh no I’m confused now.
@@ -120,7 +128,13 @@ var dog = {
     color: "brown",
     fur_type: "curly"
 };
+
+// Access an object's properties or methods like this:
+dog.num_legs;
+dog.speak();
 ```
+
+
 
 ### Array: making lists and getting items from them
 Arrays are lists of any kind of data, including other arrays. Each item in the array has an *index* — a number — which can be used to retrieve an *element* from the array.
